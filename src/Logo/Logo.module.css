@@ -1,0 +1,29 @@
+@media (min-width: 500px) {
+  .Logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: black;
+    padding: 8px;
+    height: 80px;
+
+    border-radius: 50%;
+  }
+
+  .Logo img {
+    height: 60%;
+  }
+}
+.Logo {
+  display: flex;
+
+  height: 30px;
+}
+
+.Logo img {
+  height: 100%;
+}
