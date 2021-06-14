@@ -14,7 +14,7 @@ import Finalized from "./OrderFinalized/Finalized";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename='/BurgerBuilderApp'>
         <div>
           <Layout>
             <Switch>
