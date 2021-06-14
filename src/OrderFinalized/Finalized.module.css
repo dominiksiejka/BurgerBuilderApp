@@ -1,0 +1,21 @@
+.Finalized {
+  font-family: "Kiwi Maru", serif;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.Finalized h2 {
+  font-family: inherit;
+  line-height: 100px;
+  border: 1px solid black;
+  font-size: 0.8rem;
+  text-align: center;
+  min-height: 100px;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 2px 1px black;
+}
+@media (min-width: 600px) {
+  .Finalized h2 {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,34 @@
+.ContinueBtn {
+  background-color: greenyellow;
+  box-shadow: 0 0 4px 2px greenyellow;
+}
+.CancelBtn,
+.ContinueBtn {
+  padding: 5px 8px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  font-family: inherit;
+  margin: 10px;
+  text-shadow: 0 0 1px black;
+  letter-spacing: 1.2px;
+}
+.CancelBtn {
+  background-color: red;
+  box-shadow: 0 0 4px 2px red;
+}
+.CancelBtn:focus,
+.ContinueBtn:focus {
+  outline: none;
+}
+.CancelBtn:hover,
+.ContinueBtn:hover {
+  background-color: black;
+  box-shadow: 0 0 4px 2px black;
+  color: white;
+}
+
+.ContinueBtn:active,
+.CancelBtn:active {
+  transform: scale(0.95);
+}

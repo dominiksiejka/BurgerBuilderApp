@@ -1,0 +1,31 @@
+.OrderSummary ul {
+  list-style-type: square;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.OrderSummary ul li {
+  text-align: justify;
+  width: 90px;
+}
+@media only screen and (min-width: 400px) {
+  .OrderSummary li {
+    width: 20px;
+  }
+}
+.OrderSummary {
+  text-align: center;
+}
+.OrderSummary h3 {
+  font-size: 20px;
+  text-shadow: 0 0 1px black;
+  letter-spacing: 1.2px;
+}
+.OrderSummary p {
+  text-shadow: 0 0 1px black;
+}
+.OrderSummary p:last-of-type {
+  text-shadow: 0 0 1px red;
+}
