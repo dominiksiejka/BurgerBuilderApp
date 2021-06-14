@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 import Layout from "./components/Layout/Layouts";
 import BurgerBuilder from "./containers/BurgerBuilder";
@@ -19,6 +24,7 @@ class App extends Component {
                 component={Finalized}
               />
               <Route path='/checkout' component={Checkout} />
+              <Redirect from='*' to='/' />
             </Switch>
           </Layout>
         </div>
