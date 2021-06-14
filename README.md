@@ -2,7 +2,7 @@
 
 ## Demo
 
-[**click live demo of the project**](https://dominiksiejka.github.io/YouTubeApp/)
+[**click live demo of the project**](https://dominiksiejka.github.io/BurgerBuilderApp)
 
 ![BurgerBuilderApp preview](./src/assets/burgerbuilder.jpg)
 
