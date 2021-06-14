@@ -1,0 +1,24 @@
+.NavigationItem {
+  height: 100%;
+}
+
+.NavigationItem a {
+  display: block;
+  letter-spacing: 1.1px;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding: 2px 5px;
+  /* border-radius: 10px; */
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+}
+.NavigationItem a.ActiveLink {
+  border-bottom-color: yellow;
+}
+
+a.active {
+  border-bottom-color: red;
+}

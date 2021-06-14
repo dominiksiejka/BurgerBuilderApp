@@ -1,0 +1,35 @@
+.Toolbar {
+  z-index: 90;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.Toolbar nav {
+  display: none;
+}
+@media (min-width: 500px) {
+  .Toolbar {
+    position: relative;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70px;
+    margin-bottom: 25px;
+    width: 85%;
+    border-radius: 10px;
+  }
+
+  /* .Toolbar div {
+    margin-left: 15px;
+  } */
+  .Toolbar nav {
+    display: block;
+
+    width: 100%;
+  }
+}

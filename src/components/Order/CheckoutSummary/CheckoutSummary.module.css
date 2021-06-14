@@ -1,0 +1,8 @@
+.CheckoutSummary {
+  margin: 50px auto;
+  width: 95%;
+  padding: 5px;
+  box-shadow: 0 0 5px 2px tomato;
+  text-align: center;
+  background-color: tomato;
+}
