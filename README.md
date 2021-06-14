@@ -37,7 +37,7 @@ First of all choose the ingrediants you would like to have on your burger. You c
 with BASH
 
 # clone the remote repo to your local one
-$ git clone https://github.com/dominiksiejka/YouTubeApp.git
+$ git clone https://github.com/dominiksiejka/BurgerBuilderApp.git
 
 # open the index.html file or use your code editor to open it with live server
 
@@ -50,4 +50,4 @@ $ git clone https://github.com/dominiksiejka/YouTubeApp.git
 
 ## License
 
-- MIT © [Dominik Siejka ](https://github.com/dominiksiejka/YouTubeApp)
+- MIT © [Dominik Siejka ](https://github.com/dominiksiejka/BurgerBuilderApp)
